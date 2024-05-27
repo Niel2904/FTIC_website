@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    
+}
+/*
+body{
+    background-image: url('assets\css\imgs\cross.png');
+    background-repeat: repeat-y;
+}
+*/
+
+.faci{
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.csr{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 32px;
+    margin-left:15px;
+    margin-bottom: 7px;
+}
+
+
+.row1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row1 img{
+    width: 80%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.pic{    
+    border-radius: 15px;
+    margin:5px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.pic:hover{
+    transform: scale(1.1)
+}
+
+
+
+
+.carousel {
+    width: 100%; /* Full width of the container */
+    overflow: hidden;
+    position: relative;
+    max-width: 90%; /* Adjust this value to fit your design */
+    margin: auto; /* Center the carousel */
+    border-radius: 15px;
+}
+
+.carousel-inner {
+    display: flex;
+    width: calc(300% / 3); /* Show 3 slides at a time */
+    animation: slide 15s linear infinite;
+    
+}
+
+.carousel-item {
+    width: calc(100% / 3); /* Each item takes one-third of the carousel width */
+    flex-shrink: 0;
+}
+
+.carousel-item img {
+    width: 80%;
+    height: auto; /* Maintain the aspect ratio of the images */
+}
+
+@keyframes slide {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
+
+.yellow-bg {
+    background-color: #004928;
+    width: 100%; /* Set the desired width */
+    height: 45px; /* Set the desired height */
+    
+    margin-bottom: 10px;
+}
+
+.lgreen-bg {
+    background-color: #00dd84;
+    width: 100%; /* Set the desired width */
+    height: 45px; /* Set the desired height */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.containercol {
+    display: flex;
+    width: 90%;
+    margin:auto;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.containercol h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.column-1 {
+    width: 66.66%; /* 66% width */
+    
+    
+}
+
+
+
+.column-2 {
+    
+    width: 33.33%; /* 33% width */
+    padding-left:5px ;
+    padding-right:5px ;
+    border-radius:15px ;
+    
+}
+
+.subcol1{
+    width: 50%;
+}
+
+.subcol2{
+    width: 50%;
+}
+
+.drow3{
+    display: flex;
+}
