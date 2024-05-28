@@ -9,7 +9,7 @@
 <body>
     <nav class="navbar">
         <div class="navdiv">
-            <a href="#"><img src="{{ asset('assets\css\imgs\ftic-white.png') }}" class="icon">
+            <a href="#"><img style="margin-top: 5px; margin-bottom:5px;" src="{{ asset('assets\css\imgs\ftic-white.png') }}" class="icon">
             <div class="logo">
 
             </a>
