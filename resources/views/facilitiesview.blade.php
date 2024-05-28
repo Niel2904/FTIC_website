@@ -112,7 +112,7 @@
 
 </body>
     
-
+@include('footer/footerview')
 
 
 </html>
