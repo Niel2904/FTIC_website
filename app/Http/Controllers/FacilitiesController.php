@@ -34,7 +34,7 @@ class FacilitiesController extends Controller
     public function wow()
     {
         
-        return view('faciltiesview');
+        return view('facilitiesview');
     }
 
 

@@ -53,7 +53,7 @@ body{
     transition: transform 0.3s ease-in-out;
 }
 
-.pic:hover{
+.carousel-item .pic:hover{
     transform: scale(1.1)
 }
 
@@ -79,6 +79,7 @@ body{
 .carousel-item {
     width: calc(100% / 3); /* Each item takes one-third of the carousel width */
     flex-shrink: 0;
+    
 }
 
 .carousel-item img {
@@ -91,25 +92,24 @@ body{
     100% { transform: translateX(-100%); }
 }
 
-.yellow-bg {
+.green-bg {
     background-color: #004928;
-    width: 100%; /* Set the desired width */
-    height: 45px; /* Set the desired height */
-    
+    width: 100%; 
+    height: 275px; 
     margin-bottom: 10px;
 }
 
 .lgreen-bg {
     background-color: #00dd84;
-    width: 100%; /* Set the desired width */
-    height: 45px; /* Set the desired height */
+    width: 100%; 
+    height: 45px; 
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .containercol {
     display: flex;
-    width: 90%;
+    width: 87%;
     margin:auto;
     gap: 10px;
     margin-top: 25px;
@@ -148,4 +148,101 @@ body{
 
 .drow3{
     display: flex;
+    width: 95%;
+}
+
+
+
+.navbar{
+    background-color: #004928; 
+    padding-right: 15px; 
+    padding-left: 15px;
+}
+.navdiv{
+    
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.icon{
+    width: 197px;
+}
+.logo a{
+    font-size: 35px; 
+    font-weight: 200; 
+    color: white;
+}
+li{
+    list-style: none; 
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    
+}
+
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-bottom: 3px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.dropdown{
+    display: none;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    position: absolute;
+    width: auto;
+    background-color: #004928;
+    z-index: 10;
+    
+
+}
+.dropdown li{
+    display: flex;
+    margin-top: 10px;
+
+}
+
+ul li:hover ul.dropdown{
+    display:block;
+}
+
+li a{
+    color: white; 
+    font-size: 18px; 
+    margin-right: 25px;
+    transition: all 0.3s;
+}
+li a:hover{
+    color: red;
+    text-decoration: underline; 
+}
+
+*{
+    margin: 0; 
+    padding: 0; 
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+@media (max-width: 788x){
+
+
+}
+
+@media (max-width: 612x) {
+    .logo a {
+        font-size: 25px;
+    }
 }
