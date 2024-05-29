@@ -16,7 +16,7 @@
             </div>
             
                 <ul>
-                   <li>
+                   <li class="hider">
                     <a href="#">About <i class="arrow down"></i> </a>
                         <ul class="dropdown">
                             
@@ -29,10 +29,10 @@
                     </li>
                    
                     
-                    <li><a href="#">Programs</a></li>
-                    <li><a href="/research">Research</a></li>
-                    <li><a href="/facilities">Facilities</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li class="hider"><a href="#">Programs</a></li>
+                    <li class="hider"><a href="/research">Research</a></li>
+                    <li class="hider"><a href="/facilities">Facilities</a></li>
+                    <li class="hider"><a href="#">Contact Us</a></li>
                     
 
                    

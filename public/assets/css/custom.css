@@ -174,12 +174,15 @@ body{
     color: white;
 }
 li{
-    list-style: none; 
-    display: inline-block;
+
     font-family: "Roboto", sans-serif;
     font-weight: 200;
     font-style: normal;
     
+}
+.hider{
+    list-style: none;
+    display: inline-block;
 }
 
 .arrow {
@@ -245,4 +248,57 @@ li a:hover{
     .logo a {
         font-size: 25px;
     }
+}
+
+.rcol1{
+    width: 50%;    
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column; 
+    display: flex;
+            justify-content: center;
+}
+
+.rcol2 {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column; 
+    width: 50%;
+    margin-right: 8%;
+}
+.rcol2 p {
+    text-align: justify;
+    width: 80%; 
+    margin-bottom: 20px; 
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.rescolumn{
+    display: flex;
+    width: 94%;
+    margin:auto;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.resarea {
+    width: 60%; 
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, sans-serif; 
+}
+
+.resarea h2 {
+    font-size: 24px; 
+    margin-bottom: 20px;
+}
+
+.resarea ol {
+    display: inline-block; 
+    text-align: left; 
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 20px;
 }
