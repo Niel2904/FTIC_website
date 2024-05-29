@@ -10,9 +10,7 @@
 @include('header/headerview')
 <body class="cross" style=" background-image: url('{{ asset('assets/css/imgs/cross.png')}}');  background-repeat: repeat-y;">
     
-<div style="background-image: url('{{ asset('assets/css/imgs/bgunder.png') }}'); background-repeat: repeat-y;">
- 
-
+<div>
     <!-- 1st column after the banner -->
     <div class="rescolumn" style="margin-bottom:25px">
         <div class="rcol1">
@@ -29,6 +27,7 @@
         </div>
     </div>
 
+    <!-- 2nd col -->
     <div class="resarea">
         <h2>Research Areas</h2>
         <ol>
@@ -38,6 +37,28 @@
             <li>Disaster Risk Reduction and Management</li>
             <li>Information and Communication Technology (ICT) for Development</li>
         </ol>
+    </div>
+
+
+    <!-- 3rd col -->
+    <div class="ressdg">
+        <h2 class="resh2"> Research </h2>
+
+        <div class="sdg-container">
+            <div class="image-grid">
+                <div class="row">
+                    <a href="#"> <img src="{{ asset('assets/css/imgs/SDG-3.svg') }}" alt="Image 1"></a>
+                    <a href="#"> <img src="{{ asset('assets/css/imgs/SDG-4.svg') }}" alt="Image 2"></a>
+                    <a href="#"> <img src="{{ asset('assets/css/imgs/SDG-7.svg') }}" alt="Image 3"></a>
+                    <a href="#"> <img src="{{ asset('assets/css/imgs/SDG-8.svg') }}" alt="Image 4"></a>
+                </div>
+                <div class="row bottom-row">
+                    <a href="#"> <img src="{{ asset('assets/css/imgs/SDG-11.svg') }}" alt="Image 5"></a>
+                    <a href="#"> <img src="{{ asset('assets/css/imgs/SDG-12.svg') }}" alt="Image 6"></a>
+                    <a href="#"> <img src="{{ asset('assets/css/imgs/SDG-17.svg') }}" alt="Image 7"></a>
+                </div>
+            </div>
+        </div>
     </div>
     
 

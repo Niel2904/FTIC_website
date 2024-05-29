@@ -251,7 +251,7 @@ li a:hover{
 }
 
 .rcol1{
-    width: 50%;    
+    width: 40%;    
     display: flex;
     align-items: flex-end;
     flex-direction: column; 
@@ -264,7 +264,7 @@ li a:hover{
     justify-content: center;
     align-items: left;
     flex-direction: column; 
-    width: 50%;
+    width: 60%;
     margin-right: 8%;
 }
 .rcol2 p {
@@ -273,6 +273,12 @@ li a:hover{
     margin-bottom: 20px; 
     font-weight: 400;
     font-size: 16px;
+}
+
+.ressdg{
+    width: 65%;
+    margin: 0 auto;
+    margin-bottom: 35px;
 }
 
 .rescolumn{
@@ -284,21 +290,68 @@ li a:hover{
 }
 
 .resarea {
-    width: 60%; 
+    width: 40%; 
     margin: 0 auto;
     text-align: center;
     font-family: Arial, sans-serif; 
+    margin-bottom: 25px;
 }
 
 .resarea h2 {
     font-size: 24px; 
     margin-bottom: 20px;
+    font-weight: 600;
+    text-align: left;
 }
 
-.resarea ol {
-    display: inline-block; 
+.resarea ol li {
+  
     text-align: left; 
     font-weight: 400;
-    font-size: 18px;
-    padding-left: 20px;
+    font-size: 16px;
+    
+}
+
+.sdg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+
+}
+
+.resh2{
+    font-size: 24px; 
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-align: left;
+    
+}
+
+.sdg-container  .image-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+.sdg-container .row {
+    display: flex;
+    gap: 0;
+    
+}
+.sdg-container .row img {
+    display: block;
+    width: 200px; 
+    height: 200px; 
+    transition: transform 0.3s ease-in-out;
+}
+
+.sdg-container .row img:hover{
+    transform: scale(1.1);
+    z-index: 10;
+}
+
+.row.bottom-row {
+    justify-content: center; 
+    
 }
