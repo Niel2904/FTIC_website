@@ -30,8 +30,8 @@
                    
                     
                     <li><a href="#">Programs</a></li>
-                    <li><a href="#">Research</a></li>
-                    <li><a href="/faci">Facilities</a></li>
+                    <li><a href="/research">Research</a></li>
+                    <li><a href="/facilities">Facilities</a></li>
                     <li><a href="#">Contact Us</a></li>
                     
 
