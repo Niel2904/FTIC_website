@@ -28,13 +28,13 @@ class FacilitiesController extends Controller
     public function show()
     {
         $data = "Hello World";
-        return view('sample',compact('data'));
+        return view('sample',compact('data')); /** <--- example */
     }
 
     public function wow()
     {
         
-        return view('facilitiesview');
+        return view('FacilitiesView');
     }
 
 

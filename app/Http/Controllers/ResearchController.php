@@ -29,7 +29,7 @@ class ResearchController extends Controller
     public function restab()
     {
         
-        return view('researchview');
+        return view('ResearchView');
     }
 
 

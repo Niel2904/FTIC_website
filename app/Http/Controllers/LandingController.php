@@ -27,14 +27,13 @@ class LandingController extends Controller
      */
     public function show()
     {
-        $data = "Hello World";
-        return view('sample',compact('data'));
+
     }
 
     public function land()
     {
         
-        return view('landingview');
+        return view('LandingView');
     }
 
 
