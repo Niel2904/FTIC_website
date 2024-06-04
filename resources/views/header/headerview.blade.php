@@ -33,7 +33,7 @@
                     <li class="hider"><a href="/research">Research</a></li>
                     <li class="hider"><a href="/facilities">Facilities</a></li>
                     <li class="hider"><a href="/gallery">Gallery</a></li>
-                    <li class="hider"><a href="#">Contact Us</a></li>
+                    <li class="hider"><a href="/contactus">Contact Us</a></li>
                     
 
                    
