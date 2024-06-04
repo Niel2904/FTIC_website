@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class FacilitiesController extends Controller
+class GalleryController extends Controller
 {
     /**
      * Show the form for creating the resource.
@@ -27,14 +27,13 @@ class FacilitiesController extends Controller
      */
     public function show()
     {
-        $data = "Hello World";
-        return view('sample',compact('data')); /** <--- example */
+
     }
 
-    public function faciltab()
+    public function gallerytab()
     {
         
-        return view('FacilitiesView');
+        return view('GalleryView');
     }
 
 
