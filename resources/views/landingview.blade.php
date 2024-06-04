@@ -31,8 +31,9 @@
 
 
     <!-- Portfolio -->
+    <div class="stuport">
     <h2 style="text-align: center; font-size: 48px; font-weight: 800; margin-top: 30px;margin-bottom:20px"> Our Student Start-up Portfolio </h2>
-
+    </div>
 </body>
 @include('footer/footerview')
 </html>

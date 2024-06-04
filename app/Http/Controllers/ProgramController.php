@@ -4,9 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class ResearchController extends Controller
+class ProgramController extends Controller
 {
-   /**
+    /**
      * Show the form for creating the resource.
      */
     public function create(): never
@@ -25,11 +25,15 @@ class ResearchController extends Controller
     /**
      * Display the resource.
      */
+    public function show()
+    {
 
-    public function restab()
+    }
+
+    public function programtab()
     {
         
-        return view('ResearchView');
+        return view('ProgramView');
     }
 
 

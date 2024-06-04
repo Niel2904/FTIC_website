@@ -4,9 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class ResearchController extends Controller
+class ContactUsController extends Controller
 {
-   /**
+    /**
      * Show the form for creating the resource.
      */
     public function create(): never
@@ -25,11 +25,16 @@ class ResearchController extends Controller
     /**
      * Display the resource.
      */
+    public function show()
+    {
+        $data = "Hello World";
+        return view('sample',compact('data')); /** <--- example */
+    }
 
-    public function restab()
+    public function contacttab()
     {
         
-        return view('ResearchView');
+        return view('ContactUsView');
     }
 
 
