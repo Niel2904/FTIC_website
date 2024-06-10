@@ -46,6 +46,10 @@
         flex: 0 0 auto;
         width: 25%;
     }
+    .col-md-4 {
+        flex: 0 0 auto;
+        width: 35%;
+    }
     .col-md-5 {
         flex: 0 0 auto;
         width: 41.66666667%;
@@ -1279,4 +1283,4 @@
     .sm-line-height-85 {line-height:85px}
     .sm-line-height-90 {line-height:90px}
     .sm-line-height-95 {line-height:95px}
-    /* .sm-line-height-100 {line-height:100px} */
+}
