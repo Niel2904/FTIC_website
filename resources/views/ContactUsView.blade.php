@@ -15,5 +15,5 @@
     <h5>Hello World!</h5>
     <h6>Hello World!</h6>
 </body>
-@include('footer/footerview')
+@include('footer/custom_footerview')
 </html>
