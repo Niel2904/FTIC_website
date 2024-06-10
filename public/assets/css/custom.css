@@ -292,7 +292,7 @@ li a:hover{
     width: 40%; 
     margin: 0 auto;
     text-align: center;
-    font-family: Arial, sans-serif; 
+   
     margin-bottom: 25px;
 }
 
@@ -352,5 +352,6 @@ li a:hover{
 
 .row.bottom-row {
     justify-content: center; 
+    
     
 }
