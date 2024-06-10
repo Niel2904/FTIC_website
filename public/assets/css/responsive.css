@@ -29,11 +29,15 @@
         text-align: left !important;
     }
     .text-lg-end {
-        text-align: right !important;
+        text-align: left !important;
     }
 }
 
 @media (min-width: 768px){
+    .col-md-1 {
+        flex: 0 0 auto;
+        width: 6.66666667%;
+    }
     .col-md-2 {
         flex: 0 0 auto;
         width: 16.66666667%;
@@ -1275,4 +1279,4 @@
     .sm-line-height-85 {line-height:85px}
     .sm-line-height-90 {line-height:90px}
     .sm-line-height-95 {line-height:95px}
-    .sm-line-height-100 {line-height:100px}
+    /* .sm-line-height-100 {line-height:100px} */
