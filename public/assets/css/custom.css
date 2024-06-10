@@ -292,7 +292,7 @@ li a:hover{
     width: 40%; 
     margin: 0 auto;
     text-align: center;
-   
+    font-family: Arial, sans-serif; 
     margin-bottom: 25px;
 }
 
@@ -328,30 +328,27 @@ li a:hover{
     
 }
 
-.sdg-container  .image-grid {
+.sdg-container .image-grid {
     display: flex;
     flex-direction: column;
-    gap: 0;
+    gap: 10px; /* Adjust gap between rows as needed */
 }
-.sdg-container .row {
+.sdg-container .sdgrow {
     display: flex;
-    gap: 0;
-    
+    justify-content: center; /* Center images horizontally */
+    gap: 5px; /* Reduce gap between images */
 }
-.sdg-container .row img {
+.sdg-container .sdgrow   img {
     display: block;
-    width: 200px; 
-    height: 200px; 
+    width: 200px; /* Reduce image width */
+    height: 200px; /* Reduce image height */
     transition: transform 0.3s ease-in-out;
 }
-
-.sdg-container .row img:hover{
+.sdg-container .sdgrow img:hover{
     transform: scale(1.1);
     z-index: 10;
 }
 
-.row.bottom-row {
-    justify-content: center; 
-    
-    
+.sdg-container .bottom-row {
+    justify-content: center; /* Center images horizontally */
 }

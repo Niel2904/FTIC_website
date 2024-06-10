@@ -46,13 +46,13 @@
 
         <div class="sdg-container">
             <div class="image-grid">
-                <div class="row">
+                <div class="sdgrow">
                     <a href="#"> <img src="{{ asset('assets/css/imgs/SDG-3.svg') }}" alt="Image 1"></a>
                     <a href="#"> <img src="{{ asset('assets/css/imgs/SDG-4.svg') }}" alt="Image 2"></a>
                     <a href="#"> <img src="{{ asset('assets/css/imgs/SDG-7.svg') }}" alt="Image 3"></a>
                     <a href="#"> <img src="{{ asset('assets/css/imgs/SDG-8.svg') }}" alt="Image 4"></a>
                 </div>
-                <div class="row bottom-row">
+                <div class="sdgrow bottom-row">
                     <a href="#"> <img src="{{ asset('assets/css/imgs/SDG-11.svg') }}" alt="Image 5"></a>
                     <a href="#"> <img src="{{ asset('assets/css/imgs/SDG-12.svg') }}" alt="Image 6"></a>
                     <a href="#"> <img src="{{ asset('assets/css/imgs/SDG-17.svg') }}" alt="Image 7"></a>
