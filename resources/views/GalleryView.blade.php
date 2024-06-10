@@ -16,5 +16,5 @@
     
 
 </body>
-@include('footer/footerview')
+@include('footer/custom_footerview')
 </html>

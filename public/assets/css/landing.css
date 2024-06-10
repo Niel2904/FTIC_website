@@ -1,0 +1,65 @@
+.portfolio1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.porti{
+    width: 40%;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.sixti{
+    width: 60%;
+
+}
+
+.sixti .psix{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+
+.portir{
+    width: 60%;
+}
+
+.carouselpartner {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    max-width: 90%;
+    margin: auto;
+    border-radius: 15px;
+    height: 200px; /* Adjust the height as needed */
+}
+
+.carouselpartner-inner {
+    display: flex;
+    animation: slide 30s linear infinite; /* Adjust the duration to fit the total number of items */
+    height: 100%;
+}
+
+.carouselpartner-item {
+    flex: 0 0 33.333%; /* Each item takes one-third of the carousel width */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carouselpartner-item img {
+    max-width: 75%;
+    max-height: 75%;
+}
+
+@keyframes slide {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-200%); }
+}
