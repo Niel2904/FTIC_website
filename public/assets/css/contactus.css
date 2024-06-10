@@ -1,0 +1,101 @@
+body.cross {
+    background-image: url('{{ asset('assets/css/imgs/cross.png') }}');
+    background-repeat: repeat-y;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 52px;
+}
+.left_container, .grid2x2 {
+    padding: 10px;
+    
+}
+.left_container{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.grid2x2 {
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.grid2x2 > div{
+    display: flex;
+    flex-basis: calc(50% - 40px);
+    justify-content: center;
+    flex-direction: column;
+}
+.grid2x2 > div > div{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.box { 
+
+}
+.box1{
+    flex: 1 1 50%;
+    max-width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    justify-content: flex-start;
+}
+.box1 i{
+    font-size: 1.3em;
+}
+.box1 p{
+    font-size: 0.8em;
+    margin: 20px 0px 0px 0px;
+}
+
+.box2{
+    flex: 1 1 50%;
+    max-width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.box2 i{
+    font-size: 1.3em;
+}
+.box3{
+    flex: 1 1 50%;
+    max-width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.box3 i{
+    font-size: 1.3em;
+}
+.box4{
+    flex: 1 1 50%;
+    max-width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.box4 i{
+    font-size: 1.3em;
+}
+#email{
+    font-size: 1em;
+}
