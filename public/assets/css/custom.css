@@ -336,12 +336,12 @@ li a:hover{
 .sdg-container .sdgrow {
     display: flex;
     justify-content: center; /* Center images horizontally */
-    gap: 5px; /* Reduce gap between images */
+    gap: 5px; 
 }
 .sdg-container .sdgrow   img {
     display: block;
-    width: 200px; /* Reduce image width */
-    height: 200px; /* Reduce image height */
+    width: 200px; 
+    height: 200px; 
     transition: transform 0.3s ease-in-out;
 }
 .sdg-container .sdgrow img:hover{
