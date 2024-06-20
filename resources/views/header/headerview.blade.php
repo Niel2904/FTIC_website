@@ -17,8 +17,8 @@
             </div>
             
                 <ul>
-                   <li class="hider">
-                    <a href="#">About <i class="arrow down"></i> </a>
+                    <li class="hider">
+                    <a href="/aboutus">About <i class="arrow down"></i> </a>
                         <ul class="dropdown">
                             
                                 <li><a href="#">Story</a></li>
@@ -28,7 +28,6 @@
                                 
                         </ul>
                     </li>
-                   
                     
                     <li class="hider"><a href="/programs">Programs</a></li>
                     <li class="hider"><a href="/research">Research</a></li>
