@@ -8,12 +8,14 @@ use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\ContactUsController;
 use App\Http\Controllers\ProgramController;
 use App\Http\Controllers\CustomFooter;
+use App\Http\Controllers\QualityEducController;
 
 
 
 Route::get('/', [LandingController::class, 'land']);
 Route::get('/facilities', [FacilitiesController::class, 'faciltab']);
 Route::get('/research', [ResearchController::class, 'restab']);
+Route::get('/qesdg4', [QualityEducController::class, 'qesdg4']);
 Route::get('/gallery', [GalleryController::class, 'gallerytab']);
 Route::get('/contactus', [ContactUsController::class, 'contacttab']);
 Route::get('/programs', [ProgramController::class, 'programtab']);

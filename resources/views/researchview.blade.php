@@ -48,7 +48,7 @@
             <div class="image-grid">
                 <div class="sdgrow">
                     <a href="#"> <img src="{{ asset('assets/css/imgs/SDG-3.svg') }}" alt="Image 1"></a>
-                    <a href="#"> <img src="{{ asset('assets/css/imgs/SDG-4.svg') }}" alt="Image 2"></a>
+                    <a href="/qesdg4"> <img src="{{ asset('assets/css/imgs/SDG-4.svg') }}" alt="Image 2"></a>
                     <a href="#"> <img src="{{ asset('assets/css/imgs/SDG-7.svg') }}" alt="Image 3"></a>
                     <a href="#"> <img src="{{ asset('assets/css/imgs/SDG-8.svg') }}" alt="Image 4"></a>
                 </div>

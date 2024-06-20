@@ -1,0 +1,75 @@
+.firstterty{
+ width: 30%;
+ position: -webkit-sticky;
+ position: sticky;
+ margin: 50px 50px 20px 50px;
+ border-radius: 20px;
+ box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+ background-color: white;
+ top: 20px;
+ overflow-y: auto;
+ height: 508px;
+}
+
+.secondseventy{
+    width: 70%;
+
+}
+
+.sdgimahe img{
+    display: block;
+    width: 200px; 
+    height: 200px; 
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.sdgimahe{
+    text-align: center;
+}
+
+.forflex{
+    display: flex;
+}
+
+.explanationsdg{
+    text-align: justify;
+    margin: 15px 50px 10px 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.secondseventy h1{
+    text-align: left; 
+    font-size: 42px; 
+    font-weight: 800; 
+    margin-top: 25px;
+    margin-bottom:20px
+}
+
+
+
+.rescontainers{
+    border-radius: 10px;
+    border:  double rgba(228, 45, 66);
+    background-color: rgba(228, 45, 66, 0.9);
+    text-align: justify;
+    width: 85%;
+    margin: 0 0 25px 0;
+}
+
+.rescontainers p{
+    font-size: 16px; 
+    font-weight:300; 
+    margin: 0 10px 20px 10px;
+    padding: 0;
+    color: white;
+}
+
+.rescontainers .taytel{
+    font-size: 20px; 
+    font-weight:800; 
+    margin: 20px 10px 10px 10px;
+}
