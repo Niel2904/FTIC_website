@@ -255,7 +255,8 @@ li a:hover{
     align-items: flex-end;
     flex-direction: column; 
     display: flex;
-            justify-content: center;
+     justify-content: center;
+            
 }
 
 .rcol2 {
@@ -343,6 +344,11 @@ li a:hover{
     width: 200px; 
     height: 200px; 
     transition: transform 0.3s ease-in-out;
+}
+
+.sdgimgs:active{
+    transform: scale(0.95);
+    transition-duration: 0.1s;
 }
 .sdg-container .sdgrow img:hover{
     transform: scale(1.1);

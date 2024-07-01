@@ -53,23 +53,32 @@
 
 .rescontainers{
     border-radius: 10px;
-    border:  double rgba(228, 45, 66);
-    background-color: rgba(228, 45, 66, 0.9);
-    text-align: justify;
+    border: 5px solid rgba(228, 45, 66);
+    background-color: white;
+    text-align: left;
     width: 85%;
     margin: 0 0 25px 0;
 }
 
-.rescontainers p{
-    font-size: 16px; 
+
+.rescontainers:active {
+    transform: scale(0.98);
+    transition-duration: 0.1s;
+  }
+
+.rescontainers .descipsdg{
+    font-size: 15px; 
     font-weight:300; 
-    margin: 0 10px 20px 10px;
+    margin: 15px 15px 15px 15px;
     padding: 0;
-    color: white;
+    color: black;
 }
 
 .rescontainers .taytel{
     font-size: 20px; 
     font-weight:800; 
-    margin: 20px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    background-color:rgba(228, 45, 66) ;
+    color: white;
 }
+
