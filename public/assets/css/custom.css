@@ -156,6 +156,7 @@ body{
     background-color: #004928; 
     padding-right: 15px; 
     padding-left: 15px;
+    
 }
 .navdiv{
     
@@ -177,7 +178,6 @@ li{
     font-family: "Roboto", sans-serif;
     font-weight: 200;
     font-style: normal;
-    
 }
 .hider{
     list-style: none;
@@ -224,10 +224,12 @@ li a{
     font-size: 18px; 
     margin-right: 25px;
     transition: all 0.3s;
+    
 }
 li a:hover{
     color: red;
     text-decoration: underline; 
+    
 }
 
 *{
