@@ -28,6 +28,10 @@
 
 }*/
 
+.back {
+  margin-top: 5%;
+}
+
 .rcol2p{
     display: flex;
     flex-wrap: wrap;

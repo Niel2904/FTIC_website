@@ -19,10 +19,10 @@
         <!-- 1st column after the banner -->
         <div class="rescolumnp" style="margin-bottom:25px">
             <div class="rcol1p">
-                <img src="{{ asset('assets\css\imgs\website-bg-purplebar.png') }}" alt="" width="100%">
+                <img src="{{ asset('assets\css\imgs\FFTIC Website Banner-Programs.png') }}" alt="" width="100%">
             </div>
             
-            <h1 class="head">OUR PROGRAMS</h1>
+           <!--  <h1 class="head">OUR PROGRAMS</h1> -->
 
         <div class="back"> 
             <div class="rcol2p dropdowns" >
