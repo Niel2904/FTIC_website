@@ -31,7 +31,7 @@
             <h4 class="mission">Mission</h4>
             <p>To create the next generation of nation builders by creating innovators, technologists, and entrepreneurs.</p>
             <h4 class="vision">Vision</h4>
-            <p>To be the Philippine’s most innovative and entrepreneurial academic institution.</p>
+            <p>To be the Philippine's most innovative and entrepreneurial academic institution.</p>
         </div>
     </div>
 
