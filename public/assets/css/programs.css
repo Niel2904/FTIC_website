@@ -33,12 +33,12 @@
 }
 
 .rcol2p{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   
   padding: 40px 0 20px;
-  max-width: 90%;
+  max-width: 100%;
   margin: 0 auto;
   position: relative;
   
