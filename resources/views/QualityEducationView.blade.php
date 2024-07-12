@@ -23,7 +23,7 @@
         <div class="secondseventy">
             <h1>2023</h1>
 
-            <a href="#">
+            <a href="ressdg">
                 <div class="rescontainers">
                     <p class="taytel"> Facilitating Group Learning Using an Apprenticeship Model: Which Master is More Effective in Programming Instruction?</p>
                     <p class="descipsdg">Garcia, M. B. (2023). Facilitating Group Learning Using an Apprenticeship Model: Which Master is More Effective in Programming  Instruction? Journal of Educational Computing Research, 61(6), 1207-1231. https://doi.org/10.1177/07356331231170382</p>
@@ -37,19 +37,7 @@
                 </div>
             </a>
 
-            <a href="#">
-                <div class="rescontainers">
-                    <p class="taytel"> A Playable 3D Virtual Tour for an Interactive Campus Visit Experience: Showcasing School Facilities to Attract Potential Enrollees</p>
-                    <p class="descipsdg">Garcia, Manuel & Mansul, Danna & Pempina, Eymard & Perez, Maria & Adao, Rossana. (2023). A Playable 3D Virtual Tour for an Interactive Campus Visit Experience: Showcasing School Facilities to Attract Potential Enrollees. 461-466. 10.1109/ICVR57957.2023.10169768. </p>
-                </div>
-            </a>
 
-            <a href="#">
-                <div class="rescontainers">
-                    <p class="taytel"> A Playable 3D Virtual Tour for an Interactive Campus Visit Experience: Showcasing School Facilities to Attract Potential Enrollees</p>
-                    <p class="descipsdg">Garcia, Manuel & Mansul, Danna & Pempina, Eymard & Perez, Maria & Adao, Rossana. (2023). A Playable 3D Virtual Tour for an Interactive Campus Visit Experience: Showcasing School Facilities to Attract Potential Enrollees. 461-466. 10.1109/ICVR57957.2023.10169768. </p>
-                </div>
-            </a>
 
 
         </div>

@@ -10,6 +10,7 @@
 @include('header/headerview')
 <body class="cross" style=" background-image: url('{{ asset('assets/css/imgs/cross.png')}}');  background-repeat: repeat-y;">
     
+    <img src="{{ asset('assets/css/imgs/res_banner.png') }}">
 <div>
     <!-- 1st column after the banner -->
     <div class="rescolumn" style="margin-bottom:25px">
@@ -30,19 +31,38 @@
     <!-- 2nd col -->
     <div class="resarea">
         <h2>Research Areas</h2>
-        <ol>
-            <li>Quality Education in Engineering, Computer Studies and Multimedia Arts</li>
-            <li>Sustainable Energy and Infrastructure Development</li>
-            <li>Smart Cities</li>
-            <li>Disaster Risk Reduction and Management</li>
-            <li>Information and Communication Technology (ICT) for Development</li>
-        </ol>
+        <div class="resflex">
+            <div class="resicons">
+                <img src="{{ asset('assets/css/imgs/RA-quality education.png') }}" width="200px" height="200px">
+                <p>Quality Education in Engineering, Computer Studies and Multimedia Arts</p>
+            </div>
+
+
+            <div class="resicons">
+                <img src="{{ asset('assets/css/imgs/RA-sustainable energy.png') }}" width="200px" height="200px">
+                <p>Sustainable Energy and Infrastructure Development</p>
+            </div>
+            <div class="resicons">
+                <img src="{{ asset('assets/css/imgs/RA-smart cities.png') }}" width="200px" height="200px">
+                <p>Smart Cities</p>
+            </div>
+
+            <div class="resicons">
+                <img src="{{ asset('assets/css/imgs/RA-disaster risk.png') }}" width="200px" height="200px">
+                <p>Disaster Risk Reduction and Management</p>
+            </div>
+
+            <div class="resicons">
+                <img src="{{ asset('assets/css/imgs/RA-ict.png') }}" width="200px" height="200px">
+                <p>Information and Communication Technology (ICT) for Development</p>
+            </div>
+        </div>
+        
     </div>
 
 
     <!-- 3rd col -->
     <div class="ressdg">
-        <h2 class="resh2"> Research </h2>
 
         <div class="sdg-container">
             <div class="image-grid">
