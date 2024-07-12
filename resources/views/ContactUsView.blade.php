@@ -17,12 +17,12 @@
         </div>
         <div class="grid2x2">
             <div class="box1">
-                <i class="fa-regular fa-envelope" style="color: red"></i>
+                <i class="fa-solid fa-envelope" style="color: red"></i>
                 <p>Email</p>
                 <p>innovate@fit.edu.ph</p>
             </div>
             <div class="box2">
-                <i class="fa-regular fa-clock" style="color: green"></i>
+                <i class="fa-solid fa-clock" style="color: green"></i>
                 <p>Working Hours</p>
                 <p>Monday to Friday: 7:00 AM to 5:00 PM</p>
             </div>

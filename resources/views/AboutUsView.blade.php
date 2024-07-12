@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ asset('assets/css/custom.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/aboutus.css') }}">
-    <title>Document</title>
+    <title>About</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 @include('header/headerview')
 <body class="cross" style=" background-image: url('{{ asset('assets/css/imgs/cross.png')}}');  background-repeat: repeat-y;">
-    <div class="first_container">
+    <div class="first_container" id="story">
         <div class="left_content">
             <div>
                 <img src="{{ asset('assets\css\imgs\1160358.png') }}"  class="picture1" alt="Image 1">
@@ -21,39 +21,29 @@
             <div>
                 <p>In line with the FEU Institute of Technology’s (FEU TECH) mission to produce students that will bring significant contributions to the society, the FEU Tech Innovation Center (FTIC) was created to be the first academe-based venture builder in the country with the purpose of creating the next generation of nation-builders by creating innovators, technologists and entrepreneurs.</p>
             </div>
-        </div>
-
-        <div class="right_content">
-            <div>
-                <img src="{{ asset('assets\css\imgs\1160358.png') }}"  class="picture2" alt="Image 1">
-            </div>
-            <div>
-                <h3>How We Started</h3>
-            </div>
-            <div>
-                <p>In line with the FEU Institute of Technology’s (FEU TECH) mission to produce students that will bring significant contributions to the society, the FEU Tech Innovation Center (FTIC) was created to be the first academe-based venture builder in the country with the purpose of creating the next generation of nation-builders by creating innovators, technologists and entrepreneurs.</p>
             </div>
         </div>
     </div>
 
-    <div class="second_container">
-        <div class="mission">Mission
-            <div>To create the next generation of nation builders by creating innovators, technologists, and entrepreneurs.</div>
-        </div>
-        <div class="vision">Vision
-            <div>To be the Philippine’s most innovative and entrepreneurial academic institution.</div>
+    <div class="second_container" id="missionvision">
+        <img src="{{ asset('assets\css\imgs\sidelogo.png') }}"  class="picture4" alt="Image 1">
+        <div class="description1">
+            <h4 class="mission">Mission</h4>
+            <p>To create the next generation of nation builders by creating innovators, technologists, and entrepreneurs.</p>
+            <h4 class="vision">Vision</h4>
+            <p>To be the Philippine’s most innovative and entrepreneurial academic institution.</p>
         </div>
     </div>
-    
-    <div class="offer_container">
+
+    <div class="offer_container" id="offer">
         <div class="title1">What We Offer</div>
             <ul>
                 <div class="first_col">
                     <div class="first_bar">
-                        <div><img src="{{ asset('assets\css\imgs\1160358.png') }}"  class="picture3" alt="Image 1"></div>
-                        <div><img src="{{ asset('assets\css\imgs\1160358.png') }}"  class="picture3" alt="Image 1"></div>
-                        <div><img src="{{ asset('assets\css\imgs\1160358.png') }}"  class="picture3" alt="Image 1"></div>
-                        <div><img src="{{ asset('assets\css\imgs\1160358.png') }}"  class="picture3" alt="Image 1"></div>
+                        <div><img src="{{ asset('assets\css\imgs\ICONS-facilities.png') }}"  class="picture3" alt="Image 1"></div>
+                        <div><img src="{{ asset('assets\css\imgs\ICONS-funding.png') }}"  class="picture3" alt="Image 1"></div>
+                        <div><img src="{{ asset('assets\css\imgs\ICONS-expertise.png') }}"  class="picture3" alt="Image 1"></div>
+                        <div><img src="{{ asset('assets\css\imgs\ICONS-shared services.png') }}"  class="picture3" alt="Image 1"></div>
                     </div>
                     <div class="first_row">
                         <div class="offer">Access to the Innovation Center facilities</div>
@@ -65,9 +55,9 @@
 
                 <div class="second_col">
                     <div class="second_bar">
-                        <div><img src="{{ asset('assets\css\imgs\1160358.png') }}"  class="picture3" alt="Image 1"></div>
-                        <div><img src="{{ asset('assets\css\imgs\1160358.png') }}"  class="picture3" alt="Image 1"></div>
-                        <div><img src="{{ asset('assets\css\imgs\1160358.png') }}"  class="picture3" alt="Image 1"></div>
+                        <div><img src="{{ asset('assets\css\imgs\ICONS-ecosystem.png') }}"  class="picture3" alt="Image 1"></div>
+                        <div><img src="{{ asset('assets\css\imgs\ICONS-mentoring.png') }}"  class="picture3" alt="Image 1"></div>
+                        <div><img src="{{ asset('assets\css\imgs\ICONS-events.png') }}"  class="picture3" alt="Image 1"></div>
                         
                     </div>
                     <div class="second_row">
@@ -79,10 +69,54 @@
             </ul>
     </div>
 
-    <div class="what_we_offer">
-        <div></div>
-        <div></div>
-        <div></div>
+    <div class="innovation_team" id="team">
+        <div class="innov_title">MEET THE FEU TECH INNOVATION TEAM</div>
+        <div class="innov_welcome">Welcome to FEU Tech Innovation Center, where innovation takes center stage! Behind every groundbreaking idea and revolutionary solution, there’s a dedicated team that fuels the engine of creativity. Allow us to introduce you to the passionate minds that make up our innovative force.</div>
+        <div class="associate">
+            <!-- Team member cards -->
+            <div class="card">
+                <img src="{{ asset('assets\css\imgs\1160358.png') }}" alt="Team Member 1">
+                <h3>Team Member 1</h3>
+                <p>Role or Description</p>
+            </div>
+            <div class="card">
+                <img src="{{ asset('assets\css\imgs\1160358.png') }}" alt="Team Member 2">
+                <h3>Team Member 2</h3>
+                <p>Role or Description</p>
+            </div>
+            <div class="card">
+                <img src="{{ asset('assets\css\imgs\1160358.png') }}" alt="Team Member 3">
+                <h3>Team Member 3</h3>
+                <p>Role or Description</p>
+            </div>
+            <div class="card">
+                <img src="{{ asset('assets\css\imgs\1160358.png') }}" alt="Team Member 4">
+                <h3>Team Member 4</h3>
+                <p>Role or Description</p>
+            </div>
+            </div>
+        <div class="associate1">
+            <div class="card">
+                <img src="{{ asset('assets\css\imgs\1160358.png') }}" alt="Team Member 5">
+                <h3>Team Member 5</h3>
+                <p>Role or Description</p>
+            </div>
+            <div class="card">
+                <img src="{{ asset('assets\css\imgs\1160358.png') }}" alt="Team Member 6">
+                <h3>Team Member 6</h3>
+                <p>Role or Description</p>
+            </div>
+            <div class="card">
+                <img src="{{ asset('assets\css\imgs\1160358.png') }}" alt="Team Member 7">
+                <h3>Team Member 7</h3>
+                <p>Role or Description</p>
+            </div>
+            <div class="card">
+                <img src="{{ asset('assets\css\imgs\1160358.png') }}" alt="Team Member 8">
+                <h3>Team Member 8</h3>
+                <p>Role or Description</p>
+        </div>
+        </div>
     </div>
 
 </body>
