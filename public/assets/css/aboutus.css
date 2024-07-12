@@ -34,7 +34,6 @@
     top: 15%;
     left: 25%;
     color: black;
-    padding: 20px;
     font-size: 1.1em;
     justify-content: center;
 }
@@ -43,12 +42,12 @@
     font-size: 4em;
 }
 .mission {
-    
-    padding: 50px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
 }
 .vision {
-    
-    padding: 100px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
 }
 
 
