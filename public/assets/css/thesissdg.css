@@ -1,0 +1,25 @@
+.journalres{
+border-radius: 0px 23.5px 23.5px 0px;
+background: #7141FF;
+width: 50%;
+margin: 35px 0 35px 0;
+}
+
+.journalres p{
+    font-size: 36px;
+    color: white;
+    font-weight: 700;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+.titleres{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.titleres p {
+    font-size: 26px;
+    color: black;
+    font-weight: 600;
+}

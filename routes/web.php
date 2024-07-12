@@ -10,6 +10,9 @@ use App\Http\Controllers\ProgramController;
 use App\Http\Controllers\CustomFooter;
 use App\Http\Controllers\AboutUsController;
 use App\Http\Controllers\QualityEducController;
+use App\Http\Controllers\ThesissdgController;
+
+
 
 Route::get('/', [LandingController::class, 'land']);
 Route::get('/facilities', [FacilitiesController::class, 'faciltab']);
@@ -20,5 +23,6 @@ Route::get('/contactus', [ContactUsController::class, 'contacttab']);
 Route::get('/programs', [ProgramController::class, 'programtab']);
 Route::get('/footer', [CustomFooter::class, 'footer']);
 Route::get('/aboutus', [AboutUsController::class, 'aboutustab']);
+Route::get('/ressdg', [ThesissdgController::class, 'ressdgtab']);
 
 
