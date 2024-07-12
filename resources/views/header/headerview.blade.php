@@ -21,10 +21,10 @@
                     <a href="/aboutus">About <i class="arrow down"></i> </a>
                         <ul class="dropdown">
                             
-                                <li><a href="#">Story</a></li>
-                                <li><a href="#">Mission and Goal</a></li>
-                                <li><a href="#">What We Offer</a></li>
-                                <li><a href="#">Team</a></li>
+                                <li><a href="/aboutus#story">Story</a></li>
+                                <li><a href="/aboutus#missionvision">Mission and Goal</a></li>
+                                <li><a href="/aboutus#offer">What We Offer</a></li>
+                                <li><a href="/aboutus#team">Team</a></li>
                                 
                         </ul>
                     </li>
