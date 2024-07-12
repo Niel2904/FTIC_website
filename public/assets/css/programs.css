@@ -28,6 +28,10 @@
 
 }*/
 
+.back {
+  margin-top: 5%;
+}
+
 .rcol2p{
     display: flex;
     flex-wrap: wrap;
@@ -154,4 +158,7 @@
     margin: 0 0 40px;
     padding: 0;
     font-size: 16px;
+    text-align: center;
   }
+
+  

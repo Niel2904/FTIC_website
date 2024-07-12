@@ -156,6 +156,7 @@ body{
     background-color: #004928; 
     padding-right: 15px; 
     padding-left: 15px;
+    
 }
 .navdiv{
     
@@ -177,7 +178,6 @@ li{
     font-family: "Roboto", sans-serif;
     font-weight: 200;
     font-style: normal;
-    
 }
 .hider{
     list-style: none;
@@ -224,10 +224,12 @@ li a{
     font-size: 18px; 
     margin-right: 25px;
     transition: all 0.3s;
+    
 }
 li a:hover{
     color: red;
     text-decoration: underline; 
+    
 }
 
 *{
@@ -255,7 +257,8 @@ li a:hover{
     align-items: flex-end;
     flex-direction: column; 
     display: flex;
-            justify-content: center;
+     justify-content: center;
+            
 }
 
 .rcol2 {
@@ -336,13 +339,18 @@ li a:hover{
 .sdg-container .sdgrow {
     display: flex;
     justify-content: center; /* Center images horizontally */
-    gap: 5px; /* Reduce gap between images */
+    gap: 5px; 
 }
 .sdg-container .sdgrow   img {
     display: block;
-    width: 200px; /* Reduce image width */
-    height: 200px; /* Reduce image height */
+    width: 200px; 
+    height: 200px; 
     transition: transform 0.3s ease-in-out;
+}
+
+.sdgimgs:active{
+    transform: scale(0.95);
+    transition-duration: 0.1s;
 }
 .sdg-container .sdgrow img:hover{
     transform: scale(1.1);
