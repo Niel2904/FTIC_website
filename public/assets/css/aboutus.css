@@ -23,6 +23,7 @@
 }
 .second_container {
     position: relative;
+    justify-content: center;
 }
 .second_container {
     max-width: 100%;
@@ -41,15 +42,6 @@
     font-weight: 700;
     font-size: 4em;
 }
-.mission {
-    display: flex;
-    justify-content: center;
-}
-.vision {
-    display: flex;
-    justify-content: center;
-}
-
 
 .offer_container {
     max-width: 100%;
