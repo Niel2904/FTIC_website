@@ -26,7 +26,6 @@
     </div>
 
     <div class="second_container" id="missionvision">
-        <img src="{{ asset('assets\css\imgs\sidelogo.png') }}"  class="picture4" alt="Image 1">
         <div class="description1">
             <h4 class="mission">Mission</h4>
             <p>To create the next generation of nation builders by creating innovators, technologists, and entrepreneurs.</p>
