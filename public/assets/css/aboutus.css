@@ -21,26 +21,13 @@
     text-align: center;
     margin: 50px;
 }
-.second_container {
-    position: relative;
+.mission{
+    display: flex;
     justify-content: center;
 }
-.second_container {
-    max-width: 100%;
-    height: auto;
-    text-align: center;
-}
-.description1 {
-    position: absolute;
-    top: 15%;
-    left: 25%;
-    color: black;
-    font-size: 1.1em;
+.vision{
+    display: flex;
     justify-content: center;
-}
-.description1 h4 {
-    font-weight: 700;
-    font-size: 4em;
 }
 
 .offer_container {
