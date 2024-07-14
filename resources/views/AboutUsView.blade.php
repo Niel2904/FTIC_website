@@ -10,27 +10,33 @@
 </head>
 @include('header/headerview')
 <body class="cross" style=" background-image: url('{{ asset('assets/css/imgs/cross.png')}}');  background-repeat: repeat-y;">
+
     <div class="first_container" id="story">
         <div class="left_content">
             <div>
                 <img src="{{ asset('assets\css\imgs\1160358.png') }}"  class="picture1" alt="Image 1">
             </div>
-            <div>
-                <h3>How We Started</h3>
-            </div>
-            <div>
-                <p>In line with the FEU Institute of Technology’s (FEU TECH) mission to produce students that will bring significant contributions to the society, the FEU Tech Innovation Center (FTIC) was created to be the first academe-based venture builder in the country with the purpose of creating the next generation of nation-builders by creating innovators, technologists and entrepreneurs.</p>
-            </div>
-            </div>
+        </div>
+        <div class="right_content">
+                <div>
+                    <h3>How We Started</h3>
+                </div>
+                <div>
+                    <p>In line with the FEU Institute of Technology’s (FEU TECH) mission to produce students that will bring significant contributions to the society, the FEU Tech Innovation Center (FTIC) was created to be the first academe-based venture builder in the country with the purpose of creating the next generation of nation-builders by creating innovators, technologists and entrepreneurs.</p>
+                </div>
         </div>
     </div>
 
     <div class="second_container" id="missionvision">
         <div class="description1">
+            <div class="missioncontainer">
             <h4 class="mission">Mission</h4>
             <p>To create the next generation of nation builders by creating innovators, technologists, and entrepreneurs.</p>
+            </div>
+            <div class="visioncontainer">
             <h4 class="vision">Vision</h4>
             <p>To be the Philippine's most innovative and entrepreneurial academic institution.</p>
+            </div>
         </div>
     </div>
 
@@ -75,45 +81,61 @@
             <!-- Team member cards -->
             <div class="card">
                 <img src="{{ asset('assets\css\imgs\1160358.png') }}" alt="Team Member 1">
-                <h3>Team Member 1</h3>
-                <p>Role or Description</p>
+                <h3>Gianina Napo</h3>
+                <i>Director for Innovation Program</i>
+                <br></br>
+                <p class="email1">glnapo@feutech.edu.ph</p>
             </div>
             <div class="card">
                 <img src="{{ asset('assets\css\imgs\1160358.png') }}" alt="Team Member 2">
-                <h3>Team Member 2</h3>
-                <p>Role or Description</p>
+                <h3>Engr. Mylen J. Gomez</h3>
+                <i>Director for Research</i>
+                <br></br>
+                <p class="email1">mdgomez@feutech.edu.ph</p>
             </div>
             <div class="card">
                 <img src="{{ asset('assets\css\imgs\1160358.png') }}" alt="Team Member 3">
-                <h3>Team Member 3</h3>
-                <p>Role or Description</p>
+                <h3>Engr. Ian B. Benitez</h3>
+                <i>Research Faculty</i>
+                <br></br>
+                <p class="email1">ibbenitez@feutech.edu.ph</p>
             </div>
             <div class="card">
                 <img src="{{ asset('assets\css\imgs\1160358.png') }}" alt="Team Member 4">
-                <h3>Team Member 4</h3>
-                <p>Role or Description</p>
+                <h3>Engr. Melodia D. Pahati</h3>
+                <i>Research Faculty</i>
+                <br></br>
+                <p class="email1">mdpahati@feutech.edu.ph</p>
             </div>
             </div>
         <div class="associate1">
             <div class="card">
                 <img src="{{ asset('assets\css\imgs\1160358.png') }}" alt="Team Member 5">
-                <h3>Team Member 5</h3>
-                <p>Role or Description</p>
+                <h3>Raphael Marc R. Tiongson</h3>
+                <i>Marketing and Creative Lead</i>
+                <br></br>
+                <p class="email1">rrtiongson@feutech.edu.ph</p>
             </div>
             <div class="card">
                 <img src="{{ asset('assets\css\imgs\1160358.png') }}" alt="Team Member 6">
-                <h3>Team Member 6</h3>
-                <p>Role or Description</p>
+                <h3>Lady Mesias</h3>
+                <i>Innovation Program Associate</i>
+                <br></br>
+                <p class="email1">lbmesias@feutech.edu.ph</p>
             </div>
             <div class="card">
                 <img src="{{ asset('assets\css\imgs\1160358.png') }}" alt="Team Member 7">
-                <h3>Team Member 7</h3>
-                <p>Role or Description</p>
+                <h3>Mikah E. Gaviola</h3>
+                <i>Innovation Program Associate</i>
+                <br></br>
+                <p class="email1">megaviola@feutech.edu.ph</p>
             </div>
             <div class="card">
                 <img src="{{ asset('assets\css\imgs\1160358.png') }}" alt="Team Member 8">
-                <h3>Team Member 8</h3>
-                <p>Role or Description</p>
+                <h3>Maria Dhia A. Jarabe</h3>
+                <i>Admin Associate</i>
+                <br></br>
+                <p class="email1">majarabe@feutech.edu.ph</p>
         </div>
         </div>
     </div>
