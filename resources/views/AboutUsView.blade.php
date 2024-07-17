@@ -88,7 +88,7 @@
             </div>
             <div class="card">
                 <img src="{{ asset('assets\css\imgs\1160358.png') }}" alt="Team Member 2">
-                <h3>Engr. Mylen J. Gomez</h3>
+                <h3>Engr. Mylene J. Gomez</h3>
                 <i>Director for Research</i>
                 <br></br>
                 <p class="email1">mdgomez@feutech.edu.ph</p>
